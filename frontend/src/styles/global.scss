@@ -1,0 +1,19 @@
+// SETUP
+@import "setup/variables";
+@import "setup/mixins";
+// BASICS
+@import "basics/base";
+@import "basics/typography";
+
+// PAGES
+@import "pages/homePage";
+@import "pages/countryPage";
+
+// COMPONENTS
+@import "components/header";
+@import "components/navbar";
+@import "components/filterBySelect";
+@import "components/graphPreview";
+@import "components/countriesCasesTable";
+@import "components/loader";
+@import "components/notFoundPage";

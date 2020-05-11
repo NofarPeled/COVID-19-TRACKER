@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d443859e.chunk.css",
+    "main.js": "/static/js/main.d698554e.chunk.js",
+    "main.js.map": "/static/js/main.d698554e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8dc0443e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8dc0443e.js.map",
+    "static/js/2.81aad97e.chunk.js": "/static/js/2.81aad97e.chunk.js",
+    "static/js/2.81aad97e.chunk.js.map": "/static/js/2.81aad97e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.94b61b0ae535bc3b92d17e8879500bdd.js": "/precache-manifest.94b61b0ae535bc3b92d17e8879500bdd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d443859e.chunk.css.map": "/static/css/main.d443859e.chunk.css.map",
+    "static/js/2.81aad97e.chunk.js.LICENSE.txt": "/static/js/2.81aad97e.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/static/media/Lato-Regular.2d36b1a9.ttf",
+    "static/media/corona-virus.png": "/static/media/corona-virus.ee2cd1d9.png",
+    "static/media/loader.svg": "/static/media/loader.38ed5da9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8dc0443e.js",
+    "static/js/2.81aad97e.chunk.js",
+    "static/css/main.d443859e.chunk.css",
+    "static/js/main.d698554e.chunk.js"
+  ]
+}

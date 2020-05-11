@@ -1,0 +1,46 @@
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+    height: 9vh;
+    background-color: $basic-color;
+    box-shadow: 0px 1px 4px $basic-color;
+
+    .header-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;;
+        height: 100px;
+        @include random-move;
+    }
+    .header-circle-clip-path {
+        clip-path: ellipse(130px 140px at 10% 20%);
+        background-color: $light-color-with-opacity;
+        height: 90px;
+        width: 100vw;
+        position: absolute;
+        clip-path: ellipse(56% 40% at 50% 50%);
+        position: absolute;
+        right: 0;
+        top: -46px;
+    }
+
+    .header-title {
+        @include section-title;
+        z-index: 3;
+        color: $base-color;
+        font-size: 2rem;
+        margin: 0;
+        letter-spacing: 4px;
+
+        @media (max-width: 600px) {
+            font-size: 1.5rem;
+            letter-spacing: 2;
+        }
+    }
+
+
+}

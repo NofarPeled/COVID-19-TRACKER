@@ -1,0 +1,13 @@
+.page-not-found {
+    margin-top: 5rem;
+    margin: 5rem auto;
+    text-align: center;
+
+    .error-msg {
+        font-size: 2rem;
+    }
+    .error-gif {
+        max-height: 50vh;
+        max-width: 90vw;
+    }
+}

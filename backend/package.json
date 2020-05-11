@@ -1,0 +1,30 @@
+{
+  "name": "covid-19-app",
+  "version": "1.0.0",
+  "description": "Covid-19 App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "client": "cd frontend && npm start",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false cd frontend && npm install && npm run build"
+  },
+  "private": true,
+  "author": "Nofat Peled",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NofarPeled/corona-tracker.git"
+  },
+  "dependencies": {
+    "chromedriver": "^81.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "engines": {
+    "node": "10.16.1"
+  }
+}
