@@ -11,7 +11,7 @@
     "express-generator": "^4.16.1",
     "highcharts": "^8.0.4",
     "highcharts-react-official": "^3.0.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
